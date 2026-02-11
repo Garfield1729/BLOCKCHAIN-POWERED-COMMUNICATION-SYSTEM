@@ -1,0 +1,23 @@
+.Error {
+  position: fixed;
+  font-size: large;
+  inset: 30% 30% 45% 30%;
+  z-index: 1111111111;
+  margin: 0 auto;
+  background-color: #2f3133;
+  text-align: center;
+  border-radius: 1rem;
+  padding-top: 1rem;
+  border-radius: 100px;
+  background: #2f3133;
+  box-shadow: 5px 5px 10px #2f3133, -5px -5px 10px #2f3133;
+}
+.Error p {
+  font-size: small;
+}
+
+@media only screen and (max-width: 35em) {
+  .Error {
+    inset: 10% 10% 55% 10%;
+  }
+}
